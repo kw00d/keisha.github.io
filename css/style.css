@@ -141,7 +141,7 @@ section {
   HOME SECTION STYLES
   =======================================*/
 #home {
-	background: url("img/clement-h-544786-unsplash.jpg") no-repeat;
+	background: url(https://github.com/kw00d/keisha.github.io/blob/master/img/clement-h-544786-unsplash.jpg) no-repeat;
 	background-attachment: absolute;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
