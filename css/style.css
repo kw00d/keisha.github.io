@@ -1,0 +1,487 @@
+html {
+	font-family: sans-serif;
+	font-size: 62.5%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+	font-variant: small-caps;
+    text-align: center;
+    color: #333s;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+h2 {
+    line-height: 25px;
+    color: #333;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+
+h3 {
+    line-height: 20px;
+	color: #333;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 10px;
+}
+
+h4 {
+    line-height: 15px;
+	color: #333;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 10px;
+}
+
+p {
+    font-weight: 300;
+	color: #333;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.text-center {
+    text-align: right;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 10px;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+#main{
+	transition:margin-left .4s
+}
+ 
+ .navbar ul {
+	position: fixed;
+    top: 0;
+    width: 100%;
+	opacity: 0.9;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d4d4d;
+	box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
+}
+
+.navbar li {
+    float: left;
+    border-right:1px solid #404040;
+}
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+.navbar li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+	color: #fff;
+}
+
+.navbar li a:hover:(.active) {
+    background-color: #111;
+	color: #fff;
+}
+.navbar .active {
+    background-color: #333;
+	color: #fff;
+}
+
+/*=======================================
+  HOME SECTION STYLES
+  =======================================*/
+#home {
+	background: url(img/clement-h-544786-unsplash.jpg) no-repeat;
+	background-attachment: absolute;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	padding-top: 225px; /* This is spacer before the Main title Logo */
+	padding-bottom: 325px; /* This is spacer after the Main title Logo0 */
+	box-shadow: 0px 15px 15px 0 rgba(0,0,0,0.5);
+}
+
+.head-main {
+	color: #fff;
+	letter-spacing: 2pt;
+	word-spacing: 10pt;
+	text-align: center;
+	font-size:4em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: normal;
+    font-weight: 900;
+    border: none;
+	opacity: 0.95;
+	width: 60%;
+	padding: 5px;
+	border-radius: 8px;
+	margin: 0px auto;
+	margin-top: 13%;
+	background-color: #333;
+}
+
+/*=======================================
+  Contact STYLES
+  =======================================*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin: 0px auto;
+	background-color: rgb(51,51,51,.3);
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+}
+
+#skills {
+    color: #fff;
+	background-color: #333;
+	width: 100%;
+	display: block;
+	height: auto;
+	font-size:5em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: normal;
+    font-weight: 900;
+}
+
+
+.skills-container {
+	display: flex;
+	justify-content: center;
+	background-color: #333;
+}
+
+.skills-container > div {
+	width: 250px;
+	margin: 25px;
+	margin-bottom: 50px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 25px;
+}
+
+#experience {
+	color: #fff;
+    background-color: #595959;
+    font-family: Helvetica, sans-serif;
+}
+
+.timeline * {
+	box-sizing: border-box;
+}
+
+.timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: white;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+}
+
+.experience-container {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+}
+
+.experience-container::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -17px;
+	background-color: white;
+	border: 4px solid #FF9F55;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	right: 30px;
+	border: medium solid white;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	left: 30px;
+	border: medium solid white;
+	border-width: 10px 10px 10px 0px;
+	border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+	left: -16px;
+}
+
+/* The actual content */
+.content {
+	padding: 10px 10px;
+	background-color: white;
+	position: relative;
+	border-radius: 6px;
+}
+.content h3{
+	background-color: #e7e7e7;
+}
+.content h4{
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 10px;
+}
+
+.job-tasks ul {
+	text-align: left;
+}
+
+.job-tasks li {
+	color: #333;
+	list-style-type: none;
+	list-style-position: inside;
+    margin: 0;
+    padding: 0; 
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime  to the left */
+  .timeline::after {
+	left: 31px;
+  }
+
+/* Full-width containers */
+  .timeline .experience-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .timeline .experience-container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+ .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+.right {
+    left: 0%;
+  }
+} 
+#about {
+    background-color: #fff;
+	border-top: 5px solid #a7a7a7;
+	border-bottom: 5px solid #a7a7a7;
+}
+
+.about-container img {
+	height: 300px;
+	width: 300px;
+	border: 5px solid #a7a7a7;
+	float: left;
+	margin-right: 20px;
+}
+.about-container h2 {
+	text-align: left;
+	padding-left: 15px;
+}
+
+.about-container ul {
+	height: 300px;
+	list-style-type: none;
+}
+
+#contact  {
+	color: #333;
+    background-color: #fff;
+	border-top: 5px solid #a7a7a7;
+	border-bottom: 5px solid #a7a7a7;
+    font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+.col-sm-4 {
+	background-color: #fff;
+	text-align: center;
+}
+
+.col-sm-4 img {
+	height: 375px;
+	width: 100%;
+	text-align: center;
+}
+
+/*=======================================
+  FOOTER STYLES
+  =======================================*/
+#footer {
+    background-color: #333;
+    color: #fff;
+	text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
+
+ul.social-buttons {
+    margin: 5px;
+}
+
+ul.social-buttons li {
+	display: inline;
+	float: left;
+}
+
+ul.social-buttons li a {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 30px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #bfbfbf;
+}
+/*=======================================
+  @MEDIA QUERIES
+  =======================================*/
+@media all and (max-width:640px) and (min-width:381px) {
+   .head-main { 
+     font-size: 28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+  .head-main { 
+     font-size: 24px ;
+    }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
