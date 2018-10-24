@@ -389,15 +389,16 @@ section {
 
 #contact  {
 	color: #333;
-    background-color: #fff;
+    	background-color: #fff;
 	border-top: 5px solid #a7a7a7;
 	border-bottom: 5px solid #a7a7a7;
-    font-family: Helvetica, sans-serif;
+    	font-family: Helvetica, sans-serif;
 	text-align: center;
 }
 .col-sm-4 {
 	background-color: #fff;
 	text-align: center;
+	padding: 10% 0;
 }
 
 .col-sm-4 img {
@@ -406,13 +407,23 @@ section {
 	text-align: center;
 }
 
+.btn-primary {
+	line-height: 50px;
+    	font-weight: 900;
+   	font-size: 30px;
+	font-variant: small-caps;
+    	text-align: center;
+    	color: #333s;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
 /*=======================================
   FOOTER STYLES
   =======================================*/
 #footer {
     background-color: #333;
     color: #fff;
-	text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
